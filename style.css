@@ -1,0 +1,43 @@
+*{
+    background-color: rgba(255, 255, 0, 0.294);
+}
+#search_section{
+    width: 100vw;
+}
+.search_box{
+    width: 30vw;
+    margin: 50px auto;
+}
+#search_input{
+    height: 30px;
+    width: 20vw;
+    background-color: rgb(235, 235, 235);
+    border: 1px solid brown;
+    text-transform: capitalize;
+}
+#search_btn{
+    
+    color: white;
+    background-color: brown;
+    padding: 9px;
+    border: none;
+}
+#search_result, #search_failure{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 200px);
+    grid-gap:10px;
+    width: 600px;
+}
+.result_box, .failure_box{
+    text-align: center;
+    background-color: cornsilk;
+}
+.meal-pic{
+    height: 200px;
+    width: 200px;
+    display: block;
+}
+#Ingredients{
+    display: none;
+}
